@@ -1,7 +1,5 @@
 package com.operators.relational;
-
 import java.util.Scanner;
-
 public class EvenOdd {
     //pseudocode
     //check number is even or odd.
