@@ -9,11 +9,15 @@ public class EvenOdd {
         System.out.println("Enter no to check no is even or odd");
         int no = sc.nextInt();
 
-        if(no % 2 ==0){
-            System.out.println("Number is even..");
-        }
-        else{
-            System.out.println("Number is odd");
-        }
+//        if(no % 2 ==0)
+//            System.out.println("Number is even..");
+//
+//        else
+//            System.out.println("Number is odd");
+
+        //Ternary operator
+       // System.out.println((no % 2 == 0) ? "This is even no" : " This is odd number");
+        System.out.println((no% 2 ==0) ? "This no is even using ternary operator " : " odd");
+
     }
 }
