@@ -1,9 +1,6 @@
 package com.operators.instanceofoperator;
-
 import java.util.Scanner;
-
 public class InstanceOfOperator {
-
     public static void main(String[] args) {
 //        String city = "Pune";
 //        Integer length = 3;
