@@ -1,7 +1,7 @@
 package com.operators.staticdemo;
 import java.util.Scanner;
 public class AdvanceStaticDemo {
-     static int staticNo;
+    static int staticNo;
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
