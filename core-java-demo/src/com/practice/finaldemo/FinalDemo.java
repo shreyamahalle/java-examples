@@ -1,4 +1,4 @@
-package src.com.finaldemo;
+package src.com.practice.finaldemo;
 
 public class FinalDemo {
     public final String GREETING_MSG = "Hello city...";
