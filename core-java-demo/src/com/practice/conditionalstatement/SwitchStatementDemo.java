@@ -1,5 +1,4 @@
 package src.com.practice.conditionalstatement;
-
 import java.util.Scanner;
 
 public class SwitchStatementDemo {
@@ -11,7 +10,7 @@ public class SwitchStatementDemo {
         String m ="";
         switch (months){
             case 1: m = "January";
-            break;
+                break;
             case 2: m = "February";
                 break;
             case 3: m = "March";
