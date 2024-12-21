@@ -9,6 +9,7 @@ public class Understand {
 
         System.out.println(array.length);
         System.out.println(array[1]);
+        System.out.println(array[0]);
 
     }
 }
