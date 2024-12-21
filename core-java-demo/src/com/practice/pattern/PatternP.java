@@ -8,7 +8,7 @@ public class PatternP {
 
             int row = 0;
             while(row <=  col) {
-                System.out.print(row + "\t");
+                System.out.print("* \t");
                 row++;
             }
             System.out.println();
