@@ -1,4 +1,4 @@
-package src.com.practice;
+package src.number;
 import java.util.Scanner;
 public class SplitNumbers {
     private  static final Scanner sc = new Scanner(System.in);
@@ -6,12 +6,16 @@ public class SplitNumbers {
         System.out.println("Please enter positive number: ");
         int no = sc.nextInt();
 
-        System.out.println("Split digit:");
-        int remainder = 0;
+        int digit[] = new int[String.valueOf(no).length()];
+        int index = -1;
         while (no > 0){
-            remainder = no % 10;
-            System.out.println(remainder);
+            digit[++index] = no % 10;
             no = no / 10;
+        }
+        index = digit.length ;
+        System.out.println("Split digit:");
+        while (--index >= 0){
+            System.out.println(digit[index]);
         }
     }
 }
