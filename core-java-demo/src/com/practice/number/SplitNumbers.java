@@ -1,4 +1,4 @@
-package src.number;
+package src.com.practice.number;
 import java.util.Scanner;
 public class SplitNumbers {
     private  static final Scanner sc = new Scanner(System.in);
