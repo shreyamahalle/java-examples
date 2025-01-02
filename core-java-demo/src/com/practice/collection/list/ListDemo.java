@@ -1,17 +1,18 @@
-package src.com.practice.collection;
+package src.com.practice.collection.list;
 import java.util.ArrayList;
 public class ListDemo {
     public static void main(String[] args) {
         String city = "pune";
-
+        System.out.println("==================Array Demo==============");
         String[] citie = new String[3];
         citie[0] = "pune";
         citie[1] = "mumbai";
         citie[2] = "delhi";
 
         //String [] cities = {"pune" , "mumbai" , "delhi"};
-
+        System.out.println("==============ArrayList Demo=====================");
         ArrayList cityList = new ArrayList();
+
         cityList.add("pune");
         cityList.add("mumbai");
         cityList.add("delgi");
