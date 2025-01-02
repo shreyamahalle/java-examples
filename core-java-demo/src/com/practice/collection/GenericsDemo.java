@@ -3,6 +3,7 @@ package src.com.practice.collection;
 import java.util.ArrayList;
 
 public class GenericsDemo {
+    //generics are used for
     public static void main(String[] args) {
         ArrayList<String> cityGenericsList = new ArrayList<>();
         cityGenericsList.add("pune");
