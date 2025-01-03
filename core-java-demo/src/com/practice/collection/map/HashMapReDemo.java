@@ -9,8 +9,5 @@ public class HashMapReDemo {
         cityMap.put(1,"Delhi");
         cityMap.put(2,"Mumbai");
         System.out.println(cityMap);
-
-
-
 }
 }
