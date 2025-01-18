@@ -18,6 +18,7 @@ public class GenericsDemo {
         value.add(665555);
         value.add(456789);
         System.out.println("ArrayList <Int>" + value);
+        System.out.println("end");
 
     }
 }
