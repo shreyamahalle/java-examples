@@ -10,6 +10,8 @@ public class GenericsDemo {
         cityGenericsList.add("mumbai");
         cityGenericsList.add("delhi");
         cityGenericsList.add("amravati");
+        cityGenericsList.add("amravati");
+        cityGenericsList.add("amravati");
         //cityGenericsList.add(true);
         System.out.println("ArrayList <String> " + cityGenericsList);
 
