@@ -7,7 +7,6 @@ public class FinalDemo {
     public final  char DEFAULT_CHAR = 'a';
     public  final  boolean DEFAULT_FLAG = false;
     public static final String GREENTING_MSG_TO_WORLD = "Hello World..";
-
     public static void main(String[] args) {
         FinalDemo f = new FinalDemo();
         System.out.println("msg " + f.GREETING_MSG);
