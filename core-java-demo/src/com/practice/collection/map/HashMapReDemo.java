@@ -9,7 +9,9 @@ public class HashMapReDemo {
         cityMap.put(2,"Mumbai");
         cityMap.put(3,"Delhi");
         cityMap.put(4,"Nagpur");
-        cityMap.put(4,"Nagpur");
+        cityMap.put(5,"Nagpur");
+        cityMap.put(6,"Nagpur");
+        cityMap.put(7,"Nagpur");
         System.out.println(cityMap);
         System.out.println("=========================================");
 }
