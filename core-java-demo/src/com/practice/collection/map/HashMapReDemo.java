@@ -12,6 +12,7 @@ public class HashMapReDemo {
         cityMap.put(5,"Nagpur");
         cityMap.put(6,"Nagpur");
         cityMap.put(7,"Nagpur");
+        cityMap.put(8,"Nagpur");
         System.out.println(cityMap);
         System.out.println("=========================================");
 }
