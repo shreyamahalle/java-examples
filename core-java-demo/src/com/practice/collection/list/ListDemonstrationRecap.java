@@ -2,6 +2,7 @@ package src.com.practice.collection.list;
 import java.util.ArrayList;
 public class ListDemonstrationRecap {
     public static void main(String[] args) {
+
         String city = "Mumbai";
 
         String citiess[] = new String[3];
@@ -16,6 +17,9 @@ public class ListDemonstrationRecap {
         cityList.add("pune");
         cityList.add("mumbai");
         cityList.add("delhi");
+        cityList.add(1000);
+        cityList.add(1.22);
+        cityList.add(23f);
 
         System.out.println("citiess " + citiess);
         System.out.println("city " + city);
