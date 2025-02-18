@@ -1,6 +1,5 @@
 package src.com.practice.collection.illustration;
 import java.util.*;
-
 public class CarListDemo {
     private static HashMap<Integer, Car> myCarMap = new HashMap<>();
     private static List<Car> myCarList = new ArrayList<>();
@@ -35,24 +34,20 @@ public class CarListDemo {
 //        for(Car car: myCarSet) {
 //            System.out.println("inside set: " + car);
 //        }
-
         for (Map.Entry<Integer, Car> carEntry : myCarMap.entrySet()) {
             System.out.println("I have this car: with carId as " + carEntry.getKey() + " and carDetails as: " + carEntry.getValue());
         }
     }
-
     private static void addCarsToMap(Car... cars) {
         for (Car car : cars) {
             myCarMap.put(++counter, car);
         }
     }
-
     private static void addCarsToList(Car... cars) {
         for (Car car : cars) {
             myCarList.add(car);
         }
     }
-
     private static void addCarsToSet(Car... cars) {
         for (Car car : cars) {
             myCarSet.add(car);
