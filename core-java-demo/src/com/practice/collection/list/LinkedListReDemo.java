@@ -14,5 +14,6 @@ public class LinkedListReDemo {
         else{
             System.out.println("list is not empty");
         }
+        System.out.println("now list " + flowers);
     }
 }
