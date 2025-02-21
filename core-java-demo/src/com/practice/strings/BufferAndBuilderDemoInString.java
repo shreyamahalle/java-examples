@@ -10,6 +10,6 @@ public class BufferAndBuilderDemoInString {
         StringBuffer bufferCity = new StringBuffer();
         bufferCity.append("pune");
         System.out.println("buffer city: " + bufferCity);
-        System.out.println("buffer city.capacity(): " + bufferCity.capacity());
+        System.out.println("buffer  city.capacity(): " + bufferCity.capacity());
     }
 }
