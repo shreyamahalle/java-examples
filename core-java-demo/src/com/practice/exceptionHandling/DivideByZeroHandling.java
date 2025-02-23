@@ -9,7 +9,7 @@ public class DivideByZeroHandling {
              division = no1/no2;
         }catch (Exception e) {
             System.out.println("Division value must not be zero.");
-            //System.exit(0);
+            // System.exit(0);
         }
         System.out.println("Division " + division);
     }
