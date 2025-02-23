@@ -2,7 +2,7 @@ package src.com.practice.oops.inheritance.service;
 
 public class ShapeDemo {
     public static void main(String[] args) {
-        BaseShape baseShape = new BaseShape();
+        BaseShape baseShape = new BaseShape("red");
         baseShape.draw();
         System.out.println("------------------------------");
 
