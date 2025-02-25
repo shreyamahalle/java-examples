@@ -22,6 +22,7 @@ public class EpsilonGarbageCollectionDemo {
             var array = new byte[GIGABYTE];
         }
         System.out.println("Completed successfully");
+        System.gc();
     }
 
 
