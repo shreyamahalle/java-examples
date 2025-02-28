@@ -5,14 +5,14 @@ import java.io.IOException;
 import java.io.Reader;
 
 public class FileReaderDemo {
-    private static final String FILE_PATH = "D:\\fileDemo\\";
-    private static final String  FILE_NAME = "text.txt";
+    private static final String file_path = "C:\\Users\\home\\Downloads\\filedemo\\";
+    private static final String  file_name = "text.txt";
 
     public static void main(String[] args) {
 
         BufferedReader buffer = null;
         try {
-            Reader fileReader = new FileReader(FILE_PATH + FILE_NAME);
+            Reader fileReader = new FileReader(file_path + file_name);
             buffer = new BufferedReader(fileReader);
 
             System.out.println("--------------- start of file -------------------");
