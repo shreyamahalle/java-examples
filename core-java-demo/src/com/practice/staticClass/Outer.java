@@ -3,7 +3,7 @@ package src.com.practice.staticClass;
 public class Outer {
     public String city;
 
-    static  class Inner{
+    static class Inner{
         public String state;
         public String country;
 
