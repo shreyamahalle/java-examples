@@ -1,4 +1,4 @@
-package src.com.practice.staticClass;
+package src.com.practice.staticClass.memberInner;
 
 public class ParentOuter {
    private String message = "Hello from parent outer class";

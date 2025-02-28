@@ -1,4 +1,4 @@
-package src.com.practice.staticClass;
+package src.com.practice.staticClass.memberInner;
 
 public class  MemberInnerClassDemo {
     public static void main(String[] args) {

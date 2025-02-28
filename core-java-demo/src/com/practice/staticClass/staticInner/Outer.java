@@ -1,4 +1,4 @@
-package src.com.practice.staticClass;
+package src.com.practice.staticClass.staticInner;
 
 public class Outer {
     public String city;
