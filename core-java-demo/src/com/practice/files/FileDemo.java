@@ -1,4 +1,4 @@
-package src.com.practice.files.oldFasionedCode;
+package src.com.practice.files;
 import java.io.File;
 import java.io.IOException;
 import java.net.URI;
