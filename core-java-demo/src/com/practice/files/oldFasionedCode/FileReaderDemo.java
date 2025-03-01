@@ -9,7 +9,6 @@ public class FileReaderDemo {
     private static final String  file_name = "text.txt";
 
     public static void main(String[] args) {
-
         BufferedReader buffer = null;
         try {
             Reader fileReader = new FileReader(file_path + file_name);
