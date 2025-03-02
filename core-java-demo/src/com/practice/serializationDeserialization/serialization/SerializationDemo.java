@@ -1,4 +1,4 @@
-package src.com.practice.files.serialization;
+package src.com.practice.serializationDeserialization.serialization;
 
 import java.io.*;
 import java.util.List;
@@ -8,7 +8,7 @@ public class SerializationDemo {
     private static final String FILE_NAME = "student.ser";
 
     public static void main(String[] args) {
-        SerializationDemo serializationDemo = new SerializationDemo();
+         SerializationDemo serializationDemo = new SerializationDemo();
 
         Student.Address peterAddress = new Student.Address("California");
         Student.Address johnAddress = new Student.Address("New York");

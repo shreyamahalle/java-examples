@@ -1,4 +1,4 @@
-package src.com.practice.files.serialization;
+package src.com.practice.serializationDeserialization.serialization;
 import java.io.Serializable;
 public class Student implements Serializable {
     private int rollNo;
