@@ -21,15 +21,25 @@ public class StreamDemoSamples {
 
         //new code or modern code
         List<String> blankList = List.of();
+        blankList.add("add");
         List<String> message = List.of("hi","hello","how","are","you");
-        System.out.println(message+" " + blankList);
+        //System.out.println(message+" " + blankList);
+
+        //for-each loop
+        for(String msg : message){
+            System.out.println("msg " + msg);
+        }
 
         Set<String> blankSet = Set.of();
         Set<String> testSet = Set.of("hi","hello","how","are","you");
         System.out.println(blankSet + " " + testSet);
 
         Map<Integer , String > blankMap = Map.of();
+        blankMap.put(1,"hi");
         Map<Integer,String> dataMap = Map.of(1 ,"hi" , 2 ,"Hello" ,3,"how",4,"are",5,"you");
         System.out.println(blankMap + " " + dataMap);
+
+
+
     }
 }
