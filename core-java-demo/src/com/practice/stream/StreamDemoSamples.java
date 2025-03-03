@@ -1,5 +1,4 @@
 package src.com.practice.stream;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -40,9 +39,7 @@ public class StreamDemoSamples {
 
         Map<Integer,String> dataMap = Map.of(1 ,"hi" , 2 ,"Hello" ,3,"how",4,"are",5,"you");
             dataMap.forEach((key,value) ->{
-
              System.out.println("key " + key + "value");
             });
-        System.out.println(blankMap + " " + dataMap);
     }
 }
