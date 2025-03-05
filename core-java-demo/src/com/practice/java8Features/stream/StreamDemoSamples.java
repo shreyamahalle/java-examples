@@ -42,4 +42,5 @@ public class StreamDemoSamples {
              System.out.println("key " + key + "value");
             });
     }
+
 }
