@@ -1,4 +1,4 @@
-package src.com.practice.java8Features.stream;
+package src.com.practice.java8Features.streamApi;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;

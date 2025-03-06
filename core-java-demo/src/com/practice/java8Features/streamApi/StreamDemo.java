@@ -1,4 +1,4 @@
-package src.com.practice.java8Features.stream;
+package src.com.practice.java8Features.streamApi;
 import java.util.*;
 import java.util.Map.Entry;
 import java.util.function.Function;

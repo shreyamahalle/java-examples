@@ -1,4 +1,4 @@
-package src.com.practice.java8Features.stream;
+package src.com.practice.java8Features.streamApi;
 
 public class Product {
     int id;
