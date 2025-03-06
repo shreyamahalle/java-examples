@@ -11,7 +11,7 @@ public class StreamDemoSamples {
         //old fashion code
         List<String> oldMsg = new ArrayList<>();
         oldMsg.add("hi");
-        oldMsg.add("Helloo");
+        oldMsg.add("Hello");
         oldMsg.add("how");
         oldMsg.add("are");
         oldMsg.add("you");
