@@ -6,6 +6,7 @@ public class OptionalDemo {
 
     public static void main(String[] args) {
 
+        // java 8 features optional
         Person  person = getPerson();
 
         // 1. isEmpty()
