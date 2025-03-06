@@ -21,7 +21,5 @@ public class DateTimeDemo {
 
         LocalDate twentyEightDayAgoDate = todayDate.minus(28,ChronoUnit.DAYS);
         System.out.println("28 days ago date was " + twentyEightDayAgoDate);
-
-
     }
 }
