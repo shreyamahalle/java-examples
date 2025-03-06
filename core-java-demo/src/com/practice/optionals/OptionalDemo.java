@@ -6,6 +6,8 @@ public class OptionalDemo {
 
     public static void main(String[] args) {
 
+        Person  person = getPerson();
+
         // 1. isEmpty()
         Optional<String> optionalContainer = Optional.empty();
 
@@ -36,5 +38,13 @@ public class OptionalDemo {
 
         // 7. isPresent()
         System.out.println("ofNullable(null) -> isPresent()? " + optionalContainer.isPresent());
+    }
+    static class Person{
+        public int id;
+        public String name;
+    }
+
+    private static Person getPerson(){
+        return null;
     }
 }
