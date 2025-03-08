@@ -15,7 +15,6 @@ public class RandomNumberDemo {
 
         System.out.println("received id " + id);
     }
-
     private static int randomValue() {
         int id = random.nextInt(4);
        return (id > 0) ? id * (-1) : id;
