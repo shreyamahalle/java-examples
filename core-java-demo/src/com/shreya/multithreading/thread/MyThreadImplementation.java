@@ -7,6 +7,7 @@ public class MyThreadImplementation {
         for (int i=0; i<noOdThread; i++){
             MyThread myThread = new MyThread();
             myThread.start();
+            //myThread.run();
         }
     }
 }
