@@ -24,5 +24,9 @@ public class SequenceCollectionDemo {
 
         fruits.removeFirst();
         System.out.println("remove 1st fruits " + fruits);
+
+        List<String> reversedFruits = fruits.reversed();
+        System.out.println("reversed fruit " +  reversedFruits);
+
     }
 }
