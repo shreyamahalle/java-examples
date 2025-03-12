@@ -22,6 +22,7 @@ class BlueThread implements Runnable {
 public class ThreadLifecycleDemo implements Runnable {
     public static Thread whiteThread;
     public static ThreadLifecycleDemo threadLifecycleDemo;
+    //public  static ThreadLifecycleDemo threadLifecycleDemo = new ThreadLifecycleDemo();
 
     public static void main(String[] args) {
         threadLifecycleDemo = new ThreadLifecycleDemo();
