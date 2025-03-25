@@ -14,6 +14,7 @@ public class NumberTypeOR {
         }
         if((no < 100) || (no % 2 != 0)){
             System.out.println("odd number");
+
         }
     }
 }
