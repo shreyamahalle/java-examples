@@ -2,7 +2,7 @@ package src.com.shreya.practice;
 
 import java.util.Scanner;
 
-public class Addition {
+public class ArithmeticOperator {
     public static void main(String[] args) {
 //        int a = 10;
 //        int b = 20;

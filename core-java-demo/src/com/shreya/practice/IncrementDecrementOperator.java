@@ -1,8 +1,8 @@
 package src.com.shreya.practice;
 
-public class HelloWorld {
+public class IncrementDecrementOperator {
 
     public static void main(String[] args) {
-        System.out.println("Hello All ");
+
     }
 }
