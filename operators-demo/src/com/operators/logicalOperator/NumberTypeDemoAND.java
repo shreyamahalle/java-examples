@@ -1,7 +1,7 @@
 package com.operators.logicalOperator;
 import java.util.Scanner;
 
-public class NumberTypeDemo {
+public class NumberTypeDemoAND {
 
     private static final Scanner sc = new Scanner(System.in);
 
