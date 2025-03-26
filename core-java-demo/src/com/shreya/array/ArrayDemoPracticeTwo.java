@@ -1,7 +1,7 @@
 package src.com.shreya.array;
 
 public class ArrayDemoPracticeTwo { public static void main(String[] args) {
-    int marks[] = new int[5];
+    int[] marks = new int[5];
 
     System.out.println("Size of array is: " + marks.length);
     //while loop...................................
