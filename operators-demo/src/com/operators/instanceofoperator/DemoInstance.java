@@ -9,9 +9,9 @@ public class DemoInstance {
             System.out.println("this value is not int");
         }
         if (str instanceof String) {
-            System.out.println(" string");
+            System.out.println("string");
         } else {
-            System.out.println(" not string");
+            System.out.println("not string");
         }
     }
 }
