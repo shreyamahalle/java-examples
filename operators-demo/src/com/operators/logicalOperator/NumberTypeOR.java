@@ -1,5 +1,4 @@
 package com.operators.logicalOperator;
-
 import java.util.Scanner;
 
 public class NumberTypeOR {
