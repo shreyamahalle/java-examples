@@ -1,5 +1,4 @@
 package com.operators.bitwise;
-
 import java.util.Scanner;
 
 public class BitwiseAndOperator {
