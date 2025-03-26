@@ -16,7 +16,7 @@ public class StudentMarks {
 
         int position = 0;
         while (position <= 4){
-            System.out.println("marks for subject -" + position + subjectMarks[position]);
+            System.out.println("marks for subject -" + position + "=" + subjectMarks[position]);
             position++;
         }
     }
