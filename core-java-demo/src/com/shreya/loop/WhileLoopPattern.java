@@ -8,17 +8,29 @@ public class WhileLoopPattern {
     //****
     //*****
     public static void main(String[] args) {
-        int rowNo = 0;
-        while (rowNo <= 5) {
-            System.out.println(rowNo);
+//        int rowNo = 0;
+//        while (rowNo <= 5) {
+//            System.out.println(rowNo);
+//
+//            int index = 0;
+//
+//            while (index <= rowNo) {
+//                System.out.print(index + " \t");
+//                index++;
+//            }
+//            rowNo++;
+//        }
+
+        int row = 0;
+        while (row <=5){
+            System.out.println(row);
 
             int index = 0;
-
-            while (index <= rowNo) {
-                System.out.print(index + " \t");
+            while (index <= row){
+                System.out.print(index + " \t" );
                 index++;
             }
-            rowNo++;
+            row++;
         }
     }
 }
