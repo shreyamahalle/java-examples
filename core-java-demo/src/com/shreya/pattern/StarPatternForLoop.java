@@ -1,6 +1,7 @@
 package src.com.shreya.pattern;
 
 public class StarPatternForLoop {
+
     private static int pattern_size = 5;
 
     public static void main(String[] args) {
@@ -10,7 +11,6 @@ public class StarPatternForLoop {
 
             }
             System.out.println();
-
         }
     }
 }
