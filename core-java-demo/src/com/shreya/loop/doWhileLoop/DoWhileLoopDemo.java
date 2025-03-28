@@ -1,4 +1,4 @@
-package src.com.shreya.loop;
+package src.com.shreya.loop.doWhileLoop;
 public class DoWhileLoopDemo {
     //pseudocode
     //print no 1 to 5.using dp while loop.

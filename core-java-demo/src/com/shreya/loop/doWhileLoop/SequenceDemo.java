@@ -1,4 +1,4 @@
-package src.com.shreya.loop;
+package src.com.shreya.loop.doWhileLoop;
 
 public class SequenceDemo {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package src.com.shreya.loop;
+package src.com.shreya.loop.whileLoop;
 public class WhileLoopDemo {
     //pseudocode
     //print 5 number using while loop

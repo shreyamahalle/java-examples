@@ -1,4 +1,4 @@
-package src.com.shreya.loop;
+package src.com.shreya.loop.forEach;
 
 public class ForEachLoop {
 
