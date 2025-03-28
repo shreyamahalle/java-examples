@@ -11,7 +11,7 @@ public class PrimeNoDoWhile {
         int index = 1;
         do {
             index++;
-        } while (no % index == 0 && no > index);
+        } while (no % index != 0);
         if (index == no) {
             System.out.println("prime");
         } else {
