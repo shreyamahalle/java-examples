@@ -2,8 +2,9 @@ package src.com.shreya.conditionalstatement;
 import java.util.Scanner;
 
 public class SwitchStatementDemo {
+
     public static void main(String[] args) {
-       // int months = 7;
+
         System.out.println("Please Enter Month");
         Scanner sc = new Scanner(System.in);
         int months = sc.nextInt();

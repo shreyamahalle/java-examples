@@ -4,8 +4,8 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 import java.util.Scanner;
-// Pseudo code:
-// ** we have a tourism company, based on customer's birth-date, we will offer them best possible discount:
+// Pseudocode:
+// ** we have a tourism company, based on customer's birthdate, we will offer them best possible discount:
 //
 //pkg details: 35,000 per head
 //
@@ -26,7 +26,7 @@ import java.util.Scanner;
 //- 25-31 : 3.5%
 
 //
-//Pseudo code:
+//Pseudocode:
 //- define Constant for pkg_cost = 35000
 //- accept birthdate from customer
 //- Calculate discount for month
