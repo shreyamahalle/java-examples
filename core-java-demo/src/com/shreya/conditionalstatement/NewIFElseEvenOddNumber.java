@@ -1,5 +1,4 @@
 package src.com.shreya.conditionalstatement;
-
 import java.util.Scanner;
 
 public class NewIFElseEvenOddNumber {
