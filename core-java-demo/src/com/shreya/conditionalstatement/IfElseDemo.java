@@ -1,6 +1,6 @@
 package src.com.shreya.conditionalstatement;
 
-public class IfElseDemo {
+public class  IfElseDemo {
     //pseudocode
     //if - else example
     //enter number
