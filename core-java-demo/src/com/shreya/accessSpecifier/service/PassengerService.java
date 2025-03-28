@@ -1,5 +1,4 @@
 package src.com.shreya.accessSpecifier.service;
-
 import src.com.shreya.accessSpecifier.model.Passenger;
 
 import java.util.Scanner;
