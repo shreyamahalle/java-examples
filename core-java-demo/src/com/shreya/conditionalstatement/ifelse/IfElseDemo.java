@@ -1,4 +1,4 @@
-package src.com.shreya.conditionalstatement;
+package src.com.shreya.conditionalstatement.ifelse;
 
 public class  IfElseDemo {
     //pseudocode

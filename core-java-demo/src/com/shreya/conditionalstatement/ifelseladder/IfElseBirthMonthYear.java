@@ -1,10 +1,44 @@
-package src.com.shreya.conditionalstatement;
+package src.com.shreya.conditionalstatement.ifelseladder;
+
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 import java.util.Scanner;
+// Pseudocode:
+// ** we have a tourism company, based on customer's birthdate, we will offer them best possible discount:
+//
+//pkg details: 35,000 per head
+//
+//accept birt date: offer them best discount.
+//
+//Business rules:
+//- Jan, Feb, Mar - 3% discount
+//- April, May, June - 4% discount
+//- July, Aug, Sept - 10% discount
+//- Oct, Nov, Dec - 0% discount
+//
+//** dates wise discount:
+//- 1-5 : 2%
+//- 5-10 : 2.5%
+//- 10-15 : 1%
+//- 15-20 : 1.5%
+//- 20-25 : 3%
+//- 25-31 : 3.5%
 
-public class SwitchDemo {
+//
+//Pseudocode:
+//- define Constant for pkg_cost = 35000
+//- accept birthdate from customer
+//- Calculate discount for month
+//- Calculate discount for date
+//- combine and make sum of both discounts created for month and date
+//- actual_discount = (percent/100) * pkg_cost
+//- final_pkg_cost = pkg_cost - actual_discount
+//- display final_pkg_cost
+
+
+public class IfElseBirthMonthYear {
+
     public static final int PKG_COST = 45000;
     private static final Scanner sc = new Scanner(System.in);
 
@@ -23,7 +57,7 @@ public class SwitchDemo {
 
         double actualDiscount = (totalDiscount/100) * PKG_COST;
 
-        int finalPackageCost = PKG_COST -(int) actualDiscount;
+       int finalPackageCost = PKG_COST -(int) actualDiscount;
         System.out.println("your total discount is " +  actualDiscount);
         System.out.println("Final Package price is " + finalPackageCost);
 
@@ -35,18 +69,14 @@ public class SwitchDemo {
     //- Oct, Nov, Dec - 0% discount
     public static double calculateDiscountMonth(int month) {
         double monthWiseDiscount = 0.0;
-        switch (month){
-            case 1,2,3:
-                monthWiseDiscount = 3.0;
-                break;
-            case 4,5,6:
-                monthWiseDiscount = 4.0;
-                break;
-            case 7,8,9:
-                monthWiseDiscount = 10.0;
-                break;
-            default:
-                monthWiseDiscount = 0.0;
+        if (month >= 1 && month <= 3) {
+            monthWiseDiscount = 3.0;
+        }
+        if (month >= 4 && month <= 6) {
+            monthWiseDiscount = 4.0;
+        }
+        if (month >= 7 && month <= 9) {
+            monthWiseDiscount = 10.0;
         }
         return monthWiseDiscount;
     }
@@ -60,26 +90,18 @@ public class SwitchDemo {
     //- 25-31 : 3.5%
     public static double calculateDiscountDate(int date) {
         double dateWiseDiscount = 0.0;
-        switch (date){
-            case 1,2,3,4,5:
-                dateWiseDiscount = 2.0;
-                break;
-            case 6,7,8,9,10:
-                dateWiseDiscount = 2.5;
-                break;
-            case 11,12,13,14,15:
-                dateWiseDiscount = 1.0;
-                break;
-            case 16,17,18,19,20:
-                dateWiseDiscount = 1.5;
-                break;
-            case 21,22,23,24,25:
-                dateWiseDiscount = 3.0;
-                break;
-            case 26,27,28,29,30,31:
-                dateWiseDiscount = 3.5;
-                break;
+        if (date >= 1 && date <= 5) {
+            dateWiseDiscount = 2.0;
+        } else if (date >= 5 && date <= 10) {
+            dateWiseDiscount = 2.5;
+        } else if (date >= 15 && date <= 20) {
+            dateWiseDiscount = 1.0;
+        } else if (date >= 20 && date <= 25) {
+            dateWiseDiscount = 3.0;
+        } else if (date >= 25 && date <= 31) {
+            dateWiseDiscount = 3.5;
         }
+
         return dateWiseDiscount;
     }
 }

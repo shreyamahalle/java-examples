@@ -1,4 +1,4 @@
-package src.com.shreya.conditionalstatement;
+package src.com.shreya.conditionalstatement.switchstatment;
 import java.util.Scanner;
 
 public class SwitchStatementDemo {

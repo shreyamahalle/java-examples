@@ -1,4 +1,4 @@
-package src.com.shreya.conditionalstatement;
+package src.com.shreya.conditionalstatement.ifelseladder;
 
 public class NestedIfStatement {
     public static void main(String[] args) {
