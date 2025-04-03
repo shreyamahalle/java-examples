@@ -27,7 +27,6 @@ public class ArrayDemoPractice {
             System.out.println(element);
         }
 
-
         //do while
 //        do{
 //
