@@ -15,13 +15,11 @@ public class BowlingSpeedExample {
                 System.out.print("Enter speed for ball " + (i + 1) + " (in km/h): ");
                 bowlingSpeeds[i] = scanner.nextDouble();
             }
-
             // Display the bowling speeds of the over
             System.out.println("\nBowling speeds in the over are:");
             for (int i = 0; i < 6; i++) {
                 System.out.println("Ball " + (i + 1) + ": " + bowlingSpeeds[i] + " km/h");
             }
-
             // Optionally, you can also calculate the average speed or perform other operations
             double totalSpeed = 0;
             for (double speed : bowlingSpeeds) {
