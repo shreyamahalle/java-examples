@@ -4,6 +4,9 @@ public class Person {
     private  String name;
     private Address address;
 
+    public Person(String alice) {
+    }
+
     public Address getAddress() {
         return address;
     }

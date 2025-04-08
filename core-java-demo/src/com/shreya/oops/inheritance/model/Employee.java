@@ -5,6 +5,10 @@ public class Employee extends Person{
     private String dept;
     private int salary;
 
+    public Employee(String alice) {
+        super(alice);
+    }
+
     @Override
     public String toString() {
         return "Employee{" +

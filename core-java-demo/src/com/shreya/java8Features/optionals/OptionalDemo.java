@@ -1,4 +1,4 @@
-package src.com.shreya.optionals;
+package src.com.shreya.java8Features.optionals;
 
 import java.util.Optional;
 
@@ -24,7 +24,7 @@ public class OptionalDemo {
             System.out.println("no items present");
         }
 
-        System.out.println((optionalContainer.isPresent()) ? "Values in optional container using isPresent() : " + optionalContainer.get() : "no items present");
+        System.out.println(optionalContainer.map(string -> "Values in optional container using isPresent() : " + string).orElse("no items present"));
 
         // 4. ifPresent()
         optionalContainer.ifPresent(item -> System.out.println("ifPresent() : " + item.length()));

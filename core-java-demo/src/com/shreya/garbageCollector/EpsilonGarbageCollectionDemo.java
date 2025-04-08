@@ -24,6 +24,4 @@ public class EpsilonGarbageCollectionDemo {
         System.out.println("Completed successfully");
         System.gc();
     }
-
-
 }
