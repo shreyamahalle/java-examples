@@ -80,7 +80,7 @@ public class ArrayListDemo {
 
         //toArray() - converts a list into an array
         //String[] citiesArray = newCitiesList.toArray(String[]::new);
-        String[] citiesArray = newCitiList.toArray(new String[newCitiList.size()]);
+        String[] citiesArray = newCitiList.toArray(new String[0]);
         for(String city : citiesArray) {
             System.out.println("Conversion to Array: " + city);
         }
