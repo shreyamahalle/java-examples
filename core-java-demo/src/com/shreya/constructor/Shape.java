@@ -2,8 +2,8 @@ package src.com.shreya.constructor;
 
 public class Shape {
 
-    public int radius;
-    public static  String type;
+    private int radius;
+    private static  String type;
 
     //parameterized constructor
     public Shape(int radius){
@@ -20,13 +20,13 @@ public class Shape {
     }
 
     public static void main(String[] args) {
-        type = "circle";
+        Shape.type = "circle";
 
         Shape circle1 = new Shape();
         circle1.radius = 5;
         circle1.print();
 
-        Shape circle2 = new Shape(8);
+        Shape circle2 = new Shape(7);
         circle2.print();
 
         Shape circle3 = new Shape(9);
