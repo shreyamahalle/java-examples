@@ -1,4 +1,4 @@
-package com.shreya.practice.constructor;
+package com.shreya.practice.constructor.defaultConstructor;
 
 public class DemoExample {
     int no;

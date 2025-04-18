@@ -1,4 +1,4 @@
-package com.shreya.practice.constructor;
+package com.shreya.practice.constructor.paremeterizedConstructor;
 
 public class ConstructorDemo {
     public static void main(String[] args) {

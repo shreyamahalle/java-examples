@@ -1,4 +1,4 @@
-package com.shreya.practice.constructor;
+package com.shreya.practice.constructor.paremeterizedConstructor;
 
 public class ConstructorDemoTrain {
     private int trainId;
