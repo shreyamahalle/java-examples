@@ -9,6 +9,6 @@ public class ArrayPractice {
         name[3] = "pune";
         name[4] = "mumbai";
 
-        for(String string : name) System.out.println(string);
+        for (String string : name) System.out.println(string);
     }
 }

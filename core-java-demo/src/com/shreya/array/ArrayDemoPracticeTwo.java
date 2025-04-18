@@ -21,13 +21,13 @@ public class ArrayDemoPracticeTwo {
         //for loop..
         System.out.println("------------------for loop----------------------");
         System.out.println("demo of for loop");
-        for(int index = 0; index < marks.length; index++){
+        for (int index = 0; index < marks.length; index++) {
             System.out.println(marks[index]);
         }
         //for each loop
         System.out.println("--------------for each loop--------------");
         System.out.println("demo of for-each-loop");
-        for(int element : marks){
+        for (int element : marks) {
             System.out.println(element);
         }
 
