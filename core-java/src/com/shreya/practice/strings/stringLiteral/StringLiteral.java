@@ -1,4 +1,4 @@
-package com.shreya.practice.strings;
+package com.shreya.practice.strings.stringLiteral;
 
 //string literal created into string pool.
 
