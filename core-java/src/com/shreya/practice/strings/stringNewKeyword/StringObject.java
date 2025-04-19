@@ -1,4 +1,4 @@
-package com.shreya.practice.strings;
+package com.shreya.practice.strings.stringNewKeyword;
 
 //string object created in heap.
 
