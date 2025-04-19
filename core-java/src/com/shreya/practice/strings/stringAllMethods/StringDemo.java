@@ -1,4 +1,4 @@
-package com.shreya.practice.strings;
+package com.shreya.practice.strings.stringAllMethods;
 
 import java.util.stream.Stream;
 
