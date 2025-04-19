@@ -26,7 +26,19 @@ public class StringBufferAllMethods {
         s1.reverse();
         System.out.println(s1);
 
+        System.out.println("-----------------capacity()Method----------------");
+        StringBuffer s2 = new StringBuffer();
+        System.out.println(s2.capacity());
 
+        s2.append("Hello");
+        System.out.println(s2.capacity());
+
+        s2.append("Java is my favourite language");
+        System.out.println(s2.capacity());
+
+        System.out.println("-----------------ensureCapacity()Method----------------");
+        s2.ensureCapacity(10);
+        System.out.println(s2.capacity());
 
 
 
