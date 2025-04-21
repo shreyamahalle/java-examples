@@ -1,13 +1,13 @@
-package com.shreya.practice.serializationDeserialization.serialization;
+package com.shreya.practice.serializationDeserialization;
 
 import java.io.Serializable;
 
 public class Student implements Serializable {
     private int rollNo;
-    private String name;
+    public String name;
     private Address address;
 
-    public Student(int rollNo, String name, Address address) {
+    public Student(int rollNo, String name) {
         this.rollNo = rollNo;
         this.name = name;
         this.address = address;

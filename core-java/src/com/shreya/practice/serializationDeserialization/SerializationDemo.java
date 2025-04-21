@@ -1,4 +1,4 @@
-package com.shreya.practice.serializationDeserialization.serialization;
+package com.shreya.practice.serializationDeserialization;
 
 import java.io.*;
 import java.util.List;
@@ -13,8 +13,8 @@ public class SerializationDemo {
         Student.Address peterAddress = new Student.Address("California");
         Student.Address johnAddress = new Student.Address("New York");
         // prepare data to serialize
-        Student peter = new Student(1, "Peter", peterAddress);
-        Student john = new Student(2, "John", johnAddress);
+        Student peter = new Student(1, "Peter");
+        Student john = new Student(2, "John");
 
         // serialization process
         serializationDemo.serialize(List.of(peter, john));

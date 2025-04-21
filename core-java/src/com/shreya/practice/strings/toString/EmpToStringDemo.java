@@ -5,8 +5,7 @@ public class EmpToStringDemo {
     String name;
     String city;
     String Address;
-
-    EmpToStringDemo(int empId , String name , String city, String Address){
+EmpToStringDemo(int empId , String name , String city, String Address){
         this.Address = Address;
         this.empId = empId;
         this.city = city;
