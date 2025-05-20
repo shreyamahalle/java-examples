@@ -31,14 +31,14 @@ public class AllArrayListMethods {
         Collections.sort(colors);
         System.out.println("sorted list " + colors);
 
-        for(int i = 0 ; i< colors.size(); i++){
+        for (int i = 0; i < colors.size(); i++) {
             System.out.println("element at " + i + ":" + colors.get(i));
             System.out.println("=========================================================");
-        //Write a Java program to replace the second element of an ArrayList with the specified element.
-        String newElement = "ryghgehgj";
-        String result = (colors.size() > 1)
-            ? (colors.set(1,newElement) != null? "replace" :"not")
-               : "ArrayList does not have a second element to replace.";
+            //Write a Java program to replace the second element of an ArrayList with the specified element.
+            String newElement = "ryghgehgj";
+            String result = (colors.size() > 1)
+                    ? (colors.set(1, newElement) != null ? "replace" : "not")
+                    : "ArrayList does not have a second element to replace.";
             System.out.println("new" + colors);
         }
         System.out.println("=========================================================");
@@ -128,8 +128,17 @@ public class AllArrayListMethods {
 
         System.out.println("=========================================================");
         //Write a Java program to extract a portion of an array list.
+        System.out.println("original list is " + colors);
+        List<String> list = colors.subList(2, 3);
+        System.out.println("list is " + list);
+        System.out.println("=========================================================");
 
-
+        ArrayList<String> list1 = new ArrayList<>();
+        for (String a : colors){
+            c3.add(c2.contains(a) ? "yes" : "No");
+            System.out.println(c3);
+        }
+        System.out.println("=========================================================");
 
     }
 }
