@@ -127,6 +127,10 @@ public class AllArrayListMethods {
 //        System.out.println("New array list: " + c1);
 
 
+        System.out.println("=========================================================");
+        //Write a Java program to extract a portion of an array list.
+
+
 
     }
 }
