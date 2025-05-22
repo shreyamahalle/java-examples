@@ -6,7 +6,7 @@ import java.util.List;
 // Write a Java program to remove the third element from an array list.
 public class AllArrayListMethods {
     public static void main(String[] args) {
-        List<String> colors = new ArrayList<>();
+        ArrayList<String> colors = new ArrayList<>();
         colors.add("Orange");
         colors.add("Red");
         colors.add("Green");
@@ -139,6 +139,38 @@ public class AllArrayListMethods {
             System.out.println(c3);
         }
         System.out.println("=========================================================");
+        //Write a Java program for trimming the capacity of an array list.
+        System.out.println(colors);
+        colors.trimToSize();
+        System.out.println(colors);
+
+        System.out.println("=========================================================");
+        //Write a Java program to increase an array list size.
+        System.out.println("original array list is " + colors);
+        colors.add("pinkpink");
+        System.out.println("after" + colors);
+
+        System.out.println("=========================================================");
+        //Write a Java program to replace the second element of an ArrayList with the specified element.
+        System.out.println("Original array list: " + colors);
+        String new_color = "redredredred";
+        colors.set(0,new_color);
+        int num=colors.size();
+        System.out.println("Replace second element with 'White'.");
+        for(int i=0;i<num;i++)
+            System.out.println(colors.get(i));
+
+        System.out.println("=========================================================");
+        //Write a Java program to print all the elements of an ArrayList using the elements' position.
+        System.out.println(colors);
+        int no = colors.size();
+        System.out.println(no);
+        for(int i = 0; i< no; i++){
+            System.out.println(colors.get(i));
+        }
+
 
     }
+
+
 }
