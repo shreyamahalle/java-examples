@@ -26,6 +26,5 @@ public class GenericsDemo {
         city.add(1);
         city.add("pune");
         System.out.println("ArrayList " + city);
-
     }
 }

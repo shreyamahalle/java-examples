@@ -1,4 +1,4 @@
-package com.shreya.practice.collection.set;
+package com.shreya.practice.collection.set.hashSet;
 
 import java.util.HashSet;
 

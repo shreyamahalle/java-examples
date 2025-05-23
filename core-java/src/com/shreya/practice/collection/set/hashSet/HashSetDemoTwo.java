@@ -1,4 +1,4 @@
-package com.shreya.practice.collection.set;
+package com.shreya.practice.collection.set.hashSet;
 
 import java.util.*;
 
@@ -11,6 +11,7 @@ public class HashSetDemoTwo {
         cities.add("Pune"); // index = 0
         cities.add("Mumbai"); // index = 1
         cities.add("Delhi"); // index = 2
+
         System.out.println("Set: " + cities);
         System.out.println("-----------------------------");
 
