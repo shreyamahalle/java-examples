@@ -1,6 +1,7 @@
-package com.shreya.practice.collection.list;
+package com.shreya.practice.collection.list.arrayList;
 
 import java.util.*;
+import java.util.Iterator;
 
 public class ArrayListDemo {
     public static void main(String[] args) {

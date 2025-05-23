@@ -1,4 +1,4 @@
-package com.shreya.practice.collection.list;
+package com.shreya.practice.collection.list.arrayList;
 
 import java.util.ArrayList;
 

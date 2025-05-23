@@ -168,9 +168,5 @@ public class AllArrayListMethods {
         for(int i = 0; i< no; i++){
             System.out.println(colors.get(i));
         }
-
-
     }
-
-
 }
