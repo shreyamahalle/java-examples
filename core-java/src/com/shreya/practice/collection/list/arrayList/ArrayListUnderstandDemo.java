@@ -15,7 +15,6 @@ public class ArrayListUnderstandDemo {
         marksList.add(98);
         marksList.add(40);
         marksList.add(60);
-
         System.out.println("marks is " + marksList);
 
         List<String> flowerList = new ArrayList<>();
