@@ -17,6 +17,8 @@ public class HashMapDemo {
 
         //get() - helps to randomly access elements from maps
         String mumbaiCity = cities.get(1);
+        String punecity = cities.get(0);
+        System.out.println("element " + punecity);
         System.out.println("Accessed Element: " + mumbaiCity);
         System.out.println("-----------------------------");
 

@@ -1,4 +1,4 @@
-package com.shreya.practice.collection;
+package com.shreya.practice.collection.list.arrayList;
 
 import java.util.Iterator;
 import java.util.List;
