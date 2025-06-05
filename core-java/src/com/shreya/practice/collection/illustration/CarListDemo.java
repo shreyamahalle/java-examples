@@ -26,16 +26,16 @@ public class CarListDemo {
         modelY.model = "y";
 
         addCarsToMap(nexon, threeX0, modelY, threeX0, modelY);
-//        addCarsToList(nexon, threeX0, modelY, threeX0, modelY);
-//        addCarsToSet(nexon, threeX0, modelY, threeX0, modelY);
-//
-//        for(Car car: myCarList) {
-//            System.out.println("inside list: " + car);
-//        }
-//
-//        for(Car car: myCarSet) {
-//            System.out.println("inside set: " + car);
-//        }
+        addCarsToList(nexon, threeX0, modelY, threeX0, modelY);
+        addCarsToSet(nexon, threeX0, modelY, threeX0, modelY);
+
+        for(Car car: myCarList) {
+            System.out.println("inside list: " + car);
+        }
+
+        for(Car car: myCarSet) {
+            System.out.println("inside set: " + car);
+        }
         for (Map.Entry<Integer, Car> carEntry : myCarMap.entrySet()) {
             System.out.println("I have this car: with carId as " + carEntry.getKey() + " and carDetails as: " + carEntry.getValue());
         }

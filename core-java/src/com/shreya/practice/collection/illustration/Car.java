@@ -1,6 +1,7 @@
 package com.shreya.practice.collection.illustration;
 
 public class Car {
+
     public String brand;
     public String model;
     public int manufacturingYear;
