@@ -1,6 +1,4 @@
 package com.shreya.practice.collection.set.treeSet;
-
-import java.util.Collections;
 import java.util.Iterator;
 import java.util.SortedSet;
 import java.util.TreeSet;
