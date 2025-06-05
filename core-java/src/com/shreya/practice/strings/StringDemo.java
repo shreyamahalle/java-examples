@@ -86,7 +86,6 @@ public class StringDemo {
         System.out.println("blah.substring(2): " + blah.substring(2));
         System.out.println("----------------------------");
 
-
         String firstName = new String("Shreya");
         System.out.println("firstname:" + firstName);
         firstName = new String("ABCD");
