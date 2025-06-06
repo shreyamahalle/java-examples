@@ -1,9 +1,10 @@
 package com.shreya.practice.oops.inheritance.model;
 
 public class Programmer extends Employee {
-    private String workinglang;
+    public String workingLanguage;
+    public int employeeId;
 
-    public Programmer(String alice) {
-        super(alice);
+    public Programmer() {
+        super();
     }
 }
