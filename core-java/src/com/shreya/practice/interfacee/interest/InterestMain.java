@@ -12,9 +12,5 @@ public class InterestMain {
         CompoundInterest compoundInterest = new CompoundInterest();
         System.out.println("Compound Interest for 1 year " + compoundInterest.calculate(8.5,200000));
         System.out.println("Compound Interest for 5 year " + compoundInterest.calculate(8.5,200000,5));
-
-
-
-
     }
 }
