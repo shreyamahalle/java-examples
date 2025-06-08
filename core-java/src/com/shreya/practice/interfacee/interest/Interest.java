@@ -1,4 +1,4 @@
-package com.shreya.practice.interfacee;
+package com.shreya.practice.interfacee.interest;
 
 public interface Interest {
 
