@@ -1,4 +1,4 @@
-package com.shreya.practice.interfacee.interest;
+package com.shreya.practice.oops.interfacee.interest;
 
 public class CompoundInterest extends SimpleInterest {
 
