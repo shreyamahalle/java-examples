@@ -1,7 +1,4 @@
-package com.shreya.practice.oops.polymorphism;
-
-import com.shreya.practice.oops.polymorphism.overriding.CarService;
-import com.shreya.practice.oops.polymorphism.overriding.VehicleService;
+package com.shreya.practice.oops.polymorphism.overriding;
 
 public class ClassOverriding {
     public static void main(String[] args) {

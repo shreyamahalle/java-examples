@@ -1,6 +1,4 @@
-package com.shreya.practice.oops.polymorphism;
-
-import com.shreya.practice.oops.polymorphism.overloading.MethodOverloadingDemo;
+package com.shreya.practice.oops.polymorphism.overloading;
 
 public class ClassOverloading {
     public static void main(String[] args) {
