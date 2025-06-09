@@ -10,15 +10,15 @@ public class StringBufferAllMethods {
         System.out.println(sb);
 
         System.out.println("-----------------insert()Method----------------");
-        sb.insert(1,"java ");
+        sb.insert(1, "java ");
         System.out.println(sb);
 
         System.out.println("-----------------replace()Method----------------");
-        sb.replace(1,4,"java");
+        sb.replace(1, 4, "java");
         System.out.println(sb);
 
         System.out.println("-----------------delete()Method----------------");
-        sb.delete(1,3);
+        sb.delete(1, 3);
         System.out.println(sb);
 
         System.out.println("-----------------reverse()Method----------------");
@@ -39,7 +39,6 @@ public class StringBufferAllMethods {
         System.out.println("-----------------ensureCapacity()Method----------------");
         s2.ensureCapacity(10);
         System.out.println(s2.capacity());
-
 
 
     }

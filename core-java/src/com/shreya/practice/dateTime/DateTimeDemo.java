@@ -16,10 +16,10 @@ public class DateTimeDemo {
         System.out.println("After 1 minute date will be " + oneMinitLaterDateTime);
 
         //add 1 month to current date
-        LocalDate onemonthLaterDate = todayDate.plus(1, ChronoUnit.MONTHS);
+        LocalDate onemonthLaterDate = todayDate.plusMonths(1);
         System.out.println("After 1 month date will be :" + onemonthLaterDate);
 
-        LocalDate twentyEightDayAgoDate = todayDate.minus(28, ChronoUnit.DAYS);
+        LocalDate twentyEightDayAgoDate = todayDate.minusDays(28);
         System.out.println("28 days ago date was " + twentyEightDayAgoDate);
     }
 }

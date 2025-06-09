@@ -1,4 +1,5 @@
 package com.shreya.practice.collection.set.treeSet;
+
 import java.util.Iterator;
 import java.util.SortedSet;
 import java.util.TreeSet;
@@ -17,7 +18,7 @@ public class TreeSetAllMethods {
         System.out.println("Numbers is " + nos);
         System.out.println("-----------------------------------");
         //Write a Java program to iterate through all elements in a tree set.
-        for (Integer n : nos){
+        for (Integer n : nos) {
             System.out.println(n);
         }
         System.out.println("-----------------------------------");
@@ -37,7 +38,7 @@ public class TreeSetAllMethods {
         System.out.println("Original TreeSet " + nos);
         Iterator<Integer> iterator = nos.descendingIterator();
         System.out.println("nos in reverse order");
-        while (iterator.hasNext()){
+        while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
         System.out.println("-----------------------------------");
@@ -59,7 +60,7 @@ public class TreeSetAllMethods {
         //Write a Java program to compare two tree sets.
         System.out.println("Original tree " + nos);
         System.out.println("second " + nos1);
-        for(Integer e : nos){
+        for (Integer e : nos) {
             System.out.println(nos1.contains(e) ? "yes" : "no");
         }
         System.out.println("-----------------------------------");
@@ -70,8 +71,8 @@ public class TreeSetAllMethods {
         System.out.println("----------------------------------");
 
         //Write a Java program to get the element in a tree set which is greater than or equal to the given element.
-        System.out.println("Greater than or equal to 8 : "+nos.ceiling(8));
-        System.out.println("Greater than or equal to 2 : "+nos.ceiling(2));
+        System.out.println("Greater than or equal to 8 : " + nos.ceiling(8));
+        System.out.println("Greater than or equal to 2 : " + nos.ceiling(2));
 
         System.out.println("----------------------------------");
 
@@ -79,33 +80,33 @@ public class TreeSetAllMethods {
 
 
         System.out.println("----------------------------------");
-        System.out.println("Original tree set: "+nos);
+        System.out.println("Original tree set: " + nos);
         System.out.println("remove 2 " + nos.remove(2));
-        System.out.println("Original tree set: "+nos);
+        System.out.println("Original tree set: " + nos);
 
         System.out.println("----------------------------------");
 
         //Write a Java program to retrieve and remove the last element of a tree set.
-        System.out.println("Original tree set: "+nos);
+        System.out.println("Original tree set: " + nos);
 
-        System.out.println("Removes the last element: "+nos.pollLast());
-        System.out.println("Tree set after removing last element: "+nos);
-        System.out.println("Removes the last element: "+nos.pollFirst());
-        System.out.println("Tree set after removing first element: "+nos);
+        System.out.println("Removes the last element: " + nos.pollLast());
+        System.out.println("Tree set after removing last element: " + nos);
+        System.out.println("Removes the last element: " + nos.pollFirst());
+        System.out.println("Tree set after removing first element: " + nos);
 
         //Write a Java program to get an element in a tree set that has a lower value than the given element.
-        System.out.println("Strictly less than 4 : "+nos.lower(4));
-        System.out.println("Strictly less than 6 : "+nos.lower(6));
+        System.out.println("Strictly less than 4 : " + nos.lower(4));
+        System.out.println("Strictly less than 6 : " + nos.lower(6));
 
 
         //Write a Java program to get the element in a tree set strictly greater than or equal to the given element.
 
-        System.out.println("Strictly greater than 76 : "+nos.higher(76));
-        System.out.println("Strictly greater than 31 : "+nos.higher(31));
+        System.out.println("Strictly greater than 76 : " + nos.higher(76));
+        System.out.println("Strictly greater than 31 : " + nos.higher(31));
 
         //Write a Java program to get the element in a tree set less than or equal to the given element.
-        System.out.println("Less than or equal to 86 : "+nos.floor(86));
-        System.out.println("Less than or equal to 29 : "+nos.floor(29));
+        System.out.println("Less than or equal to 86 : " + nos.floor(86));
+        System.out.println("Less than or equal to 29 : " + nos.floor(29));
 
 
     }

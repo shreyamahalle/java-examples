@@ -17,7 +17,7 @@ public class Iterator {
         colors.add("Brown");
         colors.add("Purple");
 
-        for (String list : colors){
+        for (String list : colors) {
             System.out.println("color list is " + list);
         }
     }

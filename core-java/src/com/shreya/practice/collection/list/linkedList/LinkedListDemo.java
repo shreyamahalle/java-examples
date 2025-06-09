@@ -1,6 +1,8 @@
 package com.shreya.practice.collection.list.linkedList;
 
-import java.util.*;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 
 public class LinkedListDemo {
 

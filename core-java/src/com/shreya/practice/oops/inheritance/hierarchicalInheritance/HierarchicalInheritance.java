@@ -1,15 +1,21 @@
 package com.shreya.practice.oops.inheritance.hierarchicalInheritance;
 
 class Animal {
-    void sound() { System.out.println("Animal makes sound"); }
+    void sound() {
+        System.out.println("Animal makes sound");
+    }
 }
 
 class Dog extends Animal {
-    void bark() { System.out.println("Dog barks"); }
+    void bark() {
+        System.out.println("Dog barks");
+    }
 }
 
 class Cat extends Animal {
-    void meow() { System.out.println("Cat meows"); }
+    void meow() {
+        System.out.println("Cat meows");
+    }
 }
 
 public class HierarchicalInheritance {

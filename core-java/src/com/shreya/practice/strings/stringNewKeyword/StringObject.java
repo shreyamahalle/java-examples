@@ -4,7 +4,7 @@ package com.shreya.practice.strings.stringNewKeyword;
 
 public class StringObject {
     public static void main(String[] args) {
-        String str = new String("shreya");
+        String str = "shreya";
         System.out.println(str);
     }
 }

@@ -55,7 +55,7 @@ public class StringDemo {
         System.out.println("String after striping trailing whitespaces :" + nextWhitespaceString.stripTrailing());
         System.out.println("----------------------------");
 
-        String blah1 = new String("blah ");
+        String blah1 = "blah ";
         System.out.println("blah.equals(blah1): " + blah.equals(blah1));
         System.out.println("blah == blah1: " + (blah == blah1));
         System.out.println("----------------------------");
@@ -86,9 +86,9 @@ public class StringDemo {
         System.out.println("blah.substring(2): " + blah.substring(2));
         System.out.println("----------------------------");
 
-        String firstName = new String("Shreya");
+        String firstName = "Shreya";
         System.out.println("firstname:" + firstName);
-        firstName = new String("ABCD");
+        firstName = "ABCD";
         System.out.println("firstname:" + firstName);
 
     }

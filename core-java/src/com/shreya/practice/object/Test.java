@@ -4,7 +4,7 @@ public class Test {
 
     public static void main(String[] args) {
         Object test = new Test();
-        ((Test)test).hello();
+        ((Test) test).hello();
 
     }
 

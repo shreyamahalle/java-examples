@@ -1,13 +1,13 @@
 package com.shreya.practice.oops.inheritance.multipleinheritance;
 
 interface Flyable {
-     default void fly() {
+    default void fly() {
         System.out.println("Duck flies");
     }
 }
 
 interface Swimmable {
-     default void swim() {
+    default void swim() {
         System.out.println("Duck swims");
     }
 

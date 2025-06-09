@@ -7,7 +7,7 @@ public class ListDemonstrationRecap {
 
         String city = "Mumbai";
 
-        String citiess[] = new String[3];
+        String[] citiess = new String[3];
         citiess[0] = "Pune";
         citiess[1] = "Mumbai";
         citiess[2] = "Delhi";

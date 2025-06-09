@@ -9,7 +9,7 @@ public class Number {
         System.out.println("Please enter positive number: ");
         int no = sc.nextInt();
 
-        int digit[] = new int[String.valueOf(no).length()];
+        int[] digit = new int[String.valueOf(no).length()];
         int index = -1;
         while (no > 0) {
             digit[++index] = no % 10;

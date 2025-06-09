@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class RandomNumberDemo {
     private static final Scanner sc = new Scanner(System.in);
-    private static Random random = new Random();
+    private static final Random random = new Random();
 
     public static void main(String[] args) {
 

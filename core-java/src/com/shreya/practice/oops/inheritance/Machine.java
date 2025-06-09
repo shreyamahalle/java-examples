@@ -5,10 +5,6 @@ public class Machine {
     double cost;
     boolean isMaintenanceRequired;
 
-    public void displayInfo() {
-        System.out.println("Type: " + type + ", Cost: " + cost + ", Maintenance: " + isMaintenanceRequired);
-    }
-
     public static void main(String[] args) {
         WashingMachine wm = new WashingMachine();
         wm.type = "Front Load";
@@ -48,6 +44,10 @@ public class Machine {
         borewellMachine.isManual = true;
         borewellMachine.areManualEffortRequired = false;
         borewellMachine.displayInfo();
+    }
+
+    public void displayInfo() {
+        System.out.println("Type: " + type + ", Cost: " + cost + ", Maintenance: " + isMaintenanceRequired);
     }
 }
 

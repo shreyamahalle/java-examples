@@ -5,7 +5,7 @@ import com.shreya.practice.exception.customException.InvalidBookException;
 import java.util.Scanner;
 
 public class BookExceptionDemo {
-    private static Scanner sc = new Scanner(System.in);
+    private static final Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) throws InvalidBookException {
 

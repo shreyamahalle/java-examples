@@ -1,6 +1,6 @@
 package com.shreya.practice.oops.encapsulation;
 
-class Person{
+class Person {
     private String name;
     private int age;
     private String address;

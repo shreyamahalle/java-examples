@@ -3,9 +3,9 @@ package com.shreya.practice.collection.illustration;
 import java.util.*;
 
 public class CarListDemo {
-    private static HashMap<Integer, Car> myCarMap = new HashMap<>();
-    private static List<Car> myCarList = new ArrayList<>();
-    private static Set<Car> myCarSet = new HashSet<>();
+    private static final HashMap<Integer, Car> myCarMap = new HashMap<>();
+    private static final List<Car> myCarList = new ArrayList<>();
+    private static final Set<Car> myCarSet = new HashSet<>();
     private static int counter = 0;
 
     public static void main(String[] args) {
@@ -29,11 +29,11 @@ public class CarListDemo {
         addCarsToList(nexon, threeX0, modelY, threeX0, modelY);
         addCarsToSet(nexon, threeX0, modelY, threeX0, modelY);
 
-        for(Car car: myCarList) {
+        for (Car car : myCarList) {
             System.out.println("inside list: " + car);
         }
 
-        for(Car car: myCarSet) {
+        for (Car car : myCarSet) {
             System.out.println("inside set: " + car);
         }
         for (Map.Entry<Integer, Car> carEntry : myCarMap.entrySet()) {
@@ -48,14 +48,10 @@ public class CarListDemo {
     }
 
     private static void addCarsToList(Car... cars) {
-        for (Car car : cars) {
-            myCarList.add(car);
-        }
+        Collections.addAll(myCarList, cars);
     }
 
     private static void addCarsToSet(Car... cars) {
-        for (Car car : cars) {
-            myCarSet.add(car);
-        }
+        Collections.addAll(myCarSet, cars);
     }
 }

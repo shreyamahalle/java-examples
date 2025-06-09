@@ -4,7 +4,16 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class SimpleCache {
-    private Map<Integer, String> cache = new HashMap<>();
+    private final Map<Integer, String> cache = new HashMap<>();
+
+    public static void main(String[] args) {
+        SimpleCache cache = new SimpleCache();
+
+        System.out.println(cache.getStudent(1)); // Fetches from DB
+        System.out.println(cache.getStudent(1)); // Fetches from cache
+        System.out.println(cache.getStudent(2)); // Fetches from DB
+        System.out.println(cache.getStudent(2)); // Fetches from cache
+    }
 
     // Simulated expensive DB call
     private String getFromDatabase(int id) {
@@ -21,14 +30,5 @@ public class SimpleCache {
         String student = getFromDatabase(id); // Expensive operation
         cache.put(id, student); // Store in cache
         return student;
-    }
-
-    public static void main(String[] args) {
-        SimpleCache cache = new SimpleCache();
-
-        System.out.println(cache.getStudent(1)); // Fetches from DB
-        System.out.println(cache.getStudent(1)); // Fetches from cache
-        System.out.println(cache.getStudent(2)); // Fetches from DB
-        System.out.println(cache.getStudent(2)); // Fetches from cache
     }
 }

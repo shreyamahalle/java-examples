@@ -3,8 +3,8 @@ package com.shreya.practice.serializationDeserialization;
 import java.io.Serializable;
 
 public class Student implements Serializable {
-    int rollNo;
     public String name;
+    int rollNo;
     private Address address;
 
     public Student(int rollNo, String name) {

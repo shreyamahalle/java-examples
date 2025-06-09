@@ -2,7 +2,7 @@ package com.shreya.practice.pattern;
 
 public class StarPatternForLoop {
 
-    private static int pattern_size = 5;
+    private static final int pattern_size = 5;
 
     public static void main(String[] args) {
         for (int i = 0; i < pattern_size; i++) {

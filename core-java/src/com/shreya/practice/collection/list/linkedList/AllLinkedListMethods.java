@@ -166,13 +166,13 @@ public class AllLinkedListMethods {
         System.out.println("Original LinkedList is " + list);
 
         List<String> array = new LinkedList<>(list);
-        for (String str : array){
+        for (String str : array) {
             System.out.println(str);
         }
 
         System.out.println("============================");
 
-       //Write a Java program to check if a linked list is empty or not.
+        //Write a Java program to check if a linked list is empty or not.
         list.isEmpty();
         System.out.println(list);
         System.out.println("============================");
@@ -183,9 +183,6 @@ public class AllLinkedListMethods {
         list.set(0, "purple");
         System.out.println(list);
         System.out.println("============================");
-
-
-
 
 
         System.out.println("============================");

@@ -1,6 +1,8 @@
 package com.shreya.practice.collection.set.hashSet;
 
-import java.util.*;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
 
 public class HashSetDemoTwo {
     public static void main(String[] args) {

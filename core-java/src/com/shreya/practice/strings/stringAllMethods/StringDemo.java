@@ -6,12 +6,12 @@ public class StringDemo {
     public static void main(String[] args) {
 
         String indiaString = "India";//string literal
-        String country = new String("India");//string object
+        String country = "India";//string object
         System.out.println("String literal " + indiaString);
         System.out.println("String object " + country);
 
         //immutable object trying to change
-        country = new String("India132342");
+        country = "India132342";
         System.out.println(country);
         System.out.println("--------------------------------");
 
@@ -54,7 +54,7 @@ public class StringDemo {
         System.out.println("-------------------------------------------------");
 
         //repeat - repeats current string
-        String blah = new String("blas ");
+        String blah = "blas ";
         System.out.println("blah.repeat(3) " + blah.repeat(3));
         System.out.println("-------------------------------------------------");
 
@@ -96,7 +96,7 @@ public class StringDemo {
         System.out.println("----------------------------------------");
 
         // this checks the similarity in value
-        indiaString = new String("India");
+        indiaString = "India";
         if (country.equals(indiaString)) {
             System.out.println("country.equals(indiaString): both the string values are exact same");
         } else {

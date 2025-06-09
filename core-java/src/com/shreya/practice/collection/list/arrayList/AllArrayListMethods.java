@@ -3,6 +3,7 @@ package com.shreya.practice.collection.list.arrayList;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+
 // Write a Java program to remove the third element from an array list.
 public class AllArrayListMethods {
     public static void main(String[] args) {
@@ -134,7 +135,7 @@ public class AllArrayListMethods {
         System.out.println("=========================================================");
 
         ArrayList<String> list1 = new ArrayList<>();
-        for (String a : colors){
+        for (String a : colors) {
             c3.add(c2.contains(a) ? "yes" : "No");
             System.out.println(c3);
         }
@@ -154,10 +155,10 @@ public class AllArrayListMethods {
         //Write a Java program to replace the second element of an ArrayList with the specified element.
         System.out.println("Original array list: " + colors);
         String new_color = "redredredred";
-        colors.set(0,new_color);
-        int num=colors.size();
+        colors.set(0, new_color);
+        int num = colors.size();
         System.out.println("Replace second element with 'White'.");
-        for(int i=0;i<num;i++)
+        for (int i = 0; i < num; i++)
             System.out.println(colors.get(i));
 
         System.out.println("=========================================================");
@@ -165,7 +166,7 @@ public class AllArrayListMethods {
         System.out.println(colors);
         int no = colors.size();
         System.out.println(no);
-        for(int i = 0; i< no; i++){
+        for (int i = 0; i < no; i++) {
             System.out.println(colors.get(i));
         }
     }

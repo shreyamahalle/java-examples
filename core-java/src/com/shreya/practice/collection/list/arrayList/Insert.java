@@ -17,8 +17,8 @@ public class Insert {
 
         System.out.println("Colors is " + colors);
 
-        colors.add(0,"Yellow");
-        colors.add(5,"yyyyyyyyy");
+        colors.add(0, "Yellow");
+        colors.add(5, "yyyyyyyyy");
         System.out.println("Colors is " + colors);
     }
 }

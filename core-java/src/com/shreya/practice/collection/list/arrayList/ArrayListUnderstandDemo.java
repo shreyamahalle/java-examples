@@ -37,7 +37,7 @@ public class ArrayListUnderstandDemo {
         List<String> newFlowerList = new ArrayList<>();
         newFlowerList.addAll(flowerList);
         newFlowerList.add("tulip");
-        System.out.println("new flower list " +newFlowerList);
+        System.out.println("new flower list " + newFlowerList);
 
 //        Iterator<String> flowersIterator = newFlowerList.listIterator();
 //        while (flowersIterator.hasNext()){
@@ -45,13 +45,13 @@ public class ArrayListUnderstandDemo {
 //        }
 
         System.out.println("for each loop");
-        for (String flower : newFlowerList){
+        for (String flower : newFlowerList) {
             System.out.println("flowers list is " + flower);
         }
 
 //        toArray() convert list into array
         String[] flowerArray = newFlowerList.toArray(new String[newFlowerList.size()]);
-        for (String flower : flowerArray){
+        for (String flower : flowerArray) {
             System.out.println("Convert array " + flower);
         }
 
