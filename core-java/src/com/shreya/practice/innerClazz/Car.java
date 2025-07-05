@@ -15,9 +15,19 @@ public class Car {
         this.engine = engine;
     }
 
-    static  class  Engine{
+    @Override
+    public String toString() {
+        return "Car{" +
+                "groundClearance=" + groundClearance +
+                ", brand='" + brand + '\'' +
+                ", model='" + model + '\'' +
+                ", engine=" + engine +
+                '}';
+    }
 
-        String  engineType;
+    static class Engine {
+
+        String engineType;
         String fuelType;
 
         public Engine(String engineType, String fuelType) {
@@ -32,15 +42,5 @@ public class Car {
                     ", fuelType='" + fuelType + '\'' +
                     '}';
         }
-    }
-
-    @Override
-    public String toString() {
-        return "Car{" +
-                "groundClearance=" + groundClearance +
-                ", brand='" + brand + '\'' +
-                ", model='" + model + '\'' +
-                ", engine=" + engine +
-                '}';
     }
 }
