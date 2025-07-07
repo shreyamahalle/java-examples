@@ -1,7 +1,6 @@
 package com.shreya.practice.exception.ExceptionHandling;
 
 public class tryCatch {
-
     public static void main(String[] args) throws Exception {
         try {
             int no = 0;
