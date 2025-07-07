@@ -9,10 +9,11 @@ public class ExceptionDemo {
 
         try {
             processMarksUsingThrows();
-        }catch (Exception e){
+        } catch (Exception e) {
             System.err.println(e.getMessage());
         }
     }
+
     private static void processMarksUsingTryCatch() {
 
         int[] marks = new int[5];
@@ -30,7 +31,7 @@ public class ExceptionDemo {
         System.out.println("marks of the students is " + Arrays.toString(marks));
     }
 
-    private static void processMarksUsingThrows()throws Exception {
+    private static void processMarksUsingThrows() throws Exception {
 
         int[] marks = new int[5];
         marks[0] = 99;
@@ -42,7 +43,7 @@ public class ExceptionDemo {
             marks[5] = 90;
             System.out.println("marks [5] data completed");
         } catch (ArrayIndexOutOfBoundsException exception) {
-                 throw  new Exception("Why you are inserting marks of 6 subject ??");
+            throw new Exception("Why you are inserting marks of 6 subject ??");
         }
         System.out.println("marks of the students is " + Arrays.toString(marks));
     }
