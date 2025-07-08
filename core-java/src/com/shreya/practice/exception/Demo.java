@@ -8,7 +8,7 @@ public class Demo {
         } catch (RuntimeException e) {
             System.out.println("Exception occurred " + e.getMessage());
             throw new RuntimeException(e);
-        }finally {
+        } finally {
             System.out.println("this will always execute");
         }
     }
