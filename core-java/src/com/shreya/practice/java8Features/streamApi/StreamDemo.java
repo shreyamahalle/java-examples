@@ -8,6 +8,7 @@ import java.util.stream.Collectors;
 public class StreamDemo {
 
     public static void main(String[] args) {
+
         StreamDemo streamDemo = new StreamDemo();
         List<Product> products = streamDemo.generateListData();
 
@@ -27,7 +28,7 @@ public class StreamDemo {
         List<Float> productPriceList2 = products.stream()
                 .parallel() // parallel processing
                 .filter(product -> product.price() > 30000 && product.price() < 100000)// filtering data
-                .map(product -> product.price())// fetching price
+                .map(Product::price)// fetching price
                 .toList(); // collecting as list
         //.collect(Collectors.toList()); // collecting as list
 
