@@ -6,6 +6,7 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class StreamDemo {
+
     public static void main(String[] args) {
         StreamDemo streamDemo = new StreamDemo();
         List<Product> products = streamDemo.generateListData();
