@@ -4,7 +4,6 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 public class DateTimeDemo {
-
     public static void main(String[] args) {
         //current date
         LocalDate todayDate = LocalDate.now();
