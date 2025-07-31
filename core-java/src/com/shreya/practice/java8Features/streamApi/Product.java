@@ -13,5 +13,5 @@ package com.shreya.practice.java8Features.streamApi;
 //
 //}
 
-record Product(int id,String name,float price){
+record Product(int id, String name, float price) {
 }
