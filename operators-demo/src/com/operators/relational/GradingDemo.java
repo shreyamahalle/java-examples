@@ -14,16 +14,13 @@ public class GradingDemo {
         Scanner sc = new Scanner(System.in);
         int grade = sc.nextInt();
 
-        if(grade >= 80){
+        if (grade >= 80) {
             System.out.println("A grade");
-        }
-        else if(grade>=60 && grade < 80){
+        } else if (grade >= 60 && grade < 80) {
             System.out.println("B grade");
-        }
-        else if(grade >=40 && grade<60){
+        } else if (grade >= 40 && grade < 60) {
             System.out.println("C grade");
-        }
-        else{
+        } else {
             System.out.println("D");
         }
     }

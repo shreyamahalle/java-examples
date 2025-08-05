@@ -8,7 +8,7 @@ public class PositiveNegativeWithEquals {
         System.out.println("Enter number");
         int no = sc.nextInt();
 
-        if(no >= 0){
+        if (no >= 0) {
             System.out.println("number is positive or zero..");
         }
 //        else if(no == 0){

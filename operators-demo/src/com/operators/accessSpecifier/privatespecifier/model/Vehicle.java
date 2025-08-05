@@ -1,9 +1,9 @@
 package com.operators.accessSpecifier.privatespecifier.model;
 
 public class Vehicle {
-    private  int id;
-    private  String make;
-    private  String model;
+    private int id;
+    private String make;
+    private String model;
 
     @Override
     public String toString() {

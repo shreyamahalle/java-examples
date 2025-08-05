@@ -1,5 +1,7 @@
 package com.operators.arithmetic.operators;
+
 import java.util.Scanner;
+
 public class ModuloOperatorDemo {
     //pseudocode
     // take number and check if no is divisible by 2 - output

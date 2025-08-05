@@ -1,5 +1,7 @@
 package com.operators.ternary;
+
 import java.util.Scanner;
+
 public class TernaryOperator {
     //pseudocode:
     //accept the no as input.
@@ -12,6 +14,6 @@ public class TernaryOperator {
         int input = Integer.parseInt(sc.nextLine());
 
         //ternary operator represent
-        System.out.println((input   < 0) ? "negative number" :"positive number");
+        System.out.println((input < 0) ? "negative number" : "positive number");
     }
 }

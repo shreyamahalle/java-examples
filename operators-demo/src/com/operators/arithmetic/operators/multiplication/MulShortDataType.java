@@ -1,7 +1,12 @@
 package com.operators.arithmetic.operators.multiplication;
 
 public class MulShortDataType {
-    public void multiplication(){
+    public static void main(String[] args) {
+        MulShortDataType sb = new MulShortDataType();
+        sb.multiplication();
+    }
+
+    public void multiplication() {
         /*
         pseudocode(Steps)
         two variables.
@@ -11,11 +16,6 @@ public class MulShortDataType {
         short n1 = 455;
         short n2 = 8;
         System.out.println("Division is " + (n1 * n2));
-    }
-
-    public static void main(String[] args) {
-        MulShortDataType sb = new MulShortDataType();
-        sb.multiplication();
     }
 }
 

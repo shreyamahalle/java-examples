@@ -1,5 +1,7 @@
 package com.operators.relational;
+
 import java.util.Scanner;
+
 public class AttendanceCheck {
     //pseudocode
     //check student attendance
@@ -8,13 +10,11 @@ public class AttendanceCheck {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
-        if(n<=50){
+        if (n <= 50) {
             System.out.println("attendance is 50%");
-        }
-        else if(n<=75){
+        } else if (n <= 75) {
             System.out.println("Attendance is 75%");
-        }
-        else{
+        } else {
             System.out.println("Attendance is perfect");
         }
     }

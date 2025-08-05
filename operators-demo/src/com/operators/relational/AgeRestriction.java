@@ -11,12 +11,11 @@ public class AgeRestriction {
         System.out.println("Enter your age..!");
         Scanner sc = new Scanner(System.in);
         int age = sc.nextInt();
-         if(age < 18){
-             System.out.println("you are not eligible for the vote.. ");
-         }
-         else if(age >=18){
-             System.out.println("you are eligible for the vote");
-         }
+        if (age < 18) {
+            System.out.println("you are not eligible for the vote.. ");
+        } else if (age >= 18) {
+            System.out.println("you are eligible for the vote");
+        }
         System.out.println("Thank You!");
 
     }

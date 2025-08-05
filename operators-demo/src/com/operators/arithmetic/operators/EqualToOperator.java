@@ -11,10 +11,10 @@ public class EqualToOperator {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        if(a != b) {
+        if (a != b) {
             System.out.println("a is not equal to b");
-        }else {
-        System.out.println("a is  equal to b");
-    }
+        } else {
+            System.out.println("a is  equal to b");
+        }
     }
 }

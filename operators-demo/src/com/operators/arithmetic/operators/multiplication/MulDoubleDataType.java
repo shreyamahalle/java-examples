@@ -1,7 +1,12 @@
 package com.operators.arithmetic.operators.multiplication;
 
 public class MulDoubleDataType {
-    public void multiplication(){
+    public static void main(String[] args) {
+        MulDoubleDataType sb = new MulDoubleDataType();
+        sb.multiplication();
+    }
+
+    public void multiplication() {
         /*
         pseudocode(Steps)
         two variables.
@@ -11,11 +16,6 @@ public class MulDoubleDataType {
         double n1 = 456767675.67;
         double n2 = 865645.6;
         System.out.println("Division is " + (n1 * n2));
-    }
-
-    public static void main(String[] args) {
-        MulDoubleDataType sb = new MulDoubleDataType();
-        sb.multiplication();
     }
 }
 

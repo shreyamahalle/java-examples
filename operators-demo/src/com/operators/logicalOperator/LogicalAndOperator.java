@@ -12,10 +12,9 @@ public class LogicalAndOperator {
         Scanner sc = new Scanner(System.in);
         String no = sc.nextLine();
 
-        if(Integer.valueOf(no) > 0 && Integer.valueOf(no) < 1000){
+        if (Integer.valueOf(no) > 0 && Integer.valueOf(no) < 1000) {
             System.out.println("condition matching all good");
-        }
-        else{
+        } else {
             System.out.println("condition not matching all not good");
         }
     }

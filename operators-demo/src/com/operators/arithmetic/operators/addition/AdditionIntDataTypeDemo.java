@@ -9,8 +9,8 @@ public class AdditionIntDataTypeDemo {
     //print the output
     public static void main(String[] args) {
         //variable declaration.
-        int n1=10,n2=20;
-        int sum = n1+n2;
+        int n1 = 10, n2 = 20;
+        int sum = n1 + n2;
         System.out.println("sum of 2 nos is " + sum);
     }
 }

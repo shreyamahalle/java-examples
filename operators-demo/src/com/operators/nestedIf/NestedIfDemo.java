@@ -14,7 +14,7 @@ public class NestedIfDemo {
         System.out.println("Enter number ");
         int no = Integer.parseInt(sc.next());
 
-        if(no<0 && no >0){
+        if (no < 0 && no > 0) {
             System.out.println("number is even");
         }
 

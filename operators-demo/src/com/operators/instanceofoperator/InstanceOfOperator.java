@@ -1,5 +1,7 @@
 package com.operators.instanceofoperator;
+
 import java.util.Scanner;
+
 public class InstanceOfOperator {
     public static void main(String[] args) {
 //        String city = "Pune";
@@ -13,22 +15,19 @@ public class InstanceOfOperator {
         System.out.println("enter the temp");
         Double temp = sc.nextDouble();
 
-        if(city instanceof String){
+        if (city instanceof String) {
             System.out.println("type of city is string");
-        }
-        else{
+        } else {
             System.out.println("type of city is not string");
         }
-        if(length instanceof Integer){
+        if (length instanceof Integer) {
             System.out.println("type of length is integer");
-        }
-        else{
+        } else {
             System.out.println("type of length is not integer");
         }
-        if(temp instanceof Double){
+        if (temp instanceof Double) {
             System.out.println("type of temp is double");
-        }
-        else{
+        } else {
             System.out.println("type of temp is not double");
         }
     }
