@@ -7,7 +7,7 @@ public class NestedIfDemo {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter number");
         int no = Integer.parseInt(scanner.nextLine());
-        if(0 <= no){
+        if (0 <= no) {
             System.out.println("Number is positive or zero..");
             if (no % 2 == 0) {
                 System.out.println("even");
@@ -16,19 +16,19 @@ public class NestedIfDemo {
                 } else {
                     System.out.println("no is not greater than 100");
                 }
-            }else{
+            } else {
                 System.out.println("odd");
-                if (no < 100){
+                if (no < 100) {
                     System.out.println("no is less greater than 100");
-                }else{
+                } else {
                     System.out.println("no is not less than 100");
                 }
             }
-        }else {
+        } else {
             System.out.println("no is negative");
-            if(no % 5 ==0){
+            if (no % 5 == 0) {
                 System.out.println("divisible by 5");
-            }else {
+            } else {
                 System.out.println("not divisible by 5");
             }
         }
