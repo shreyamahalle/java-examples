@@ -6,7 +6,7 @@ class Database {
     static String url;
 
     static {
-        url = "jdbc:mysql://localhost:3306/stepup";
+        url = "jdbc:mysql://localhost:3306/student";
         System.out.println("Static block executed");
     }
 }
