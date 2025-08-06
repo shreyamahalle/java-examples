@@ -14,5 +14,6 @@ public class OddEvenDemo {
         } else {
             System.out.println("no is odd");
         }
+        System.out.println((no % 2 == 0) ? "no is even" : "no is odd");
     }
 }
