@@ -29,7 +29,7 @@ public class SwitchCase {
             case 7:
                 System.out.println("saturday");
                 break;
-            case 0:
+            default:
                 System.out.println("invalid");
                 break;
         }
